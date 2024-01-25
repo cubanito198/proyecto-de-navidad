@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(fotos/sesion.png) fixed;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+header {
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+}
+nav {
+    background-color: #8f939600;
+    color: #ffffff;
+    padding: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: #414141;
+    font-weight: bold;
+    
+}
+main {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 7px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.425);
+}
+
+h1 {
+    color: #464646;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: rgb(82, 82, 82);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #5a5a5a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

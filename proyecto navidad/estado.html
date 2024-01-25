@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloestado.css">
+    <title>Salud Mental App</title>
+    <script src="libreria/jquery-3.7.1.min.js">
+    </script>
+    <script src="java.js">  
+    </script>
+</head>
+<body style="background: url(fotos/habitacion\ de\ estadoi.jpg);">
+    <header>
+        <h1>Salud Mental App</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="estado.html">Estado de animo</a></li>
+                <li><a href="registro.html">Iniciar sesion</a></li>
+                <li><a href="registrate.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>¿Cómo te sientes hoy?</h2>
+            <form>
+                <label for="estado_animo">Selecciona tu estado de ánimo:</label>
+                <select name="estado_animo" id="estado_animo">
+        
+                    <option value="feliz">Feliz</option>
+                    <option value="triste">Triste</option>
+                    <option value="ansioso">Ansioso</option>
+                    <option value="Solitario">Solitario</option>
+                    <option value="Agradecido">Agradecido</option>
+                    <option value="Cansado">Cansado</option>
+                    <option value="Enojado">Enojado</option>
+                    <option value="Perdido">Perdido</option>
+                    <option value="Optimista">Optimista</option>
+                    <option value="Solitario">Solitario</option>
+
+                    <!-- Puedes agregar más opciones según sea necesario -->
+                </select>
+                <button type="button" id="botonGuardar">Guardar</button>
+                
+            </form>
+            <div id="mensajeContainer" class="  mostrar ">
+                <div id="mensajeEstadoAnimo">
+                Aquí encontrarás mensajes de animo y consejos para gestionar tu estado de ánimo. 
+                Elige aquel que más se asemeje a tu situación actual, y esperamos que encuentres en estas palabras el apoyo que necesitas.
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Salud Mental App</p>
+    </footer>
+</body>
+</html>

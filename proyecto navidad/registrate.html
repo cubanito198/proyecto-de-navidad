@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloregistro.css">
+    <title>Registrarse - Salud Mental</title>
+</head>
+<body style="background:url(fotos/sesion.png) fixed;">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="estado.html">Estado de ánimo</a></li>
+                <li><a href="registro.html">Iniciar sesión</a></li>
+                <li><a href="registrate.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Registrarse</h1>
+        <form action="registrarse.php" method="post">
+            <label for="usuario">Nombre de Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+
+            <button type="submit">Registrarse</button>
+        </form>
+
+       
+    </main>
+</body>
+</html>

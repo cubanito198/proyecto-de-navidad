@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3c80c4;
+    background-size: cover;
+    display: flex;
+    overflow:hidden;
+    min-height: 100vh;
+    margin-top: 180px;  
+    background-repeat:no-repeat !important;
+}
+header {
+    background-color: #8f93964d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+}
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+nav {
+    background-color: #8f939600;
+    color: #fff;
+    padding: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 100%;
+    margin:  auto ;
+    padding: 20px;
+    transform: translateY(var(--translate-y, 0));
+    transition: transform 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height:600px;
+    overflow-y:scroll;
+    margin-top: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+    transition: box-shadow 0.3s ease;  
+    background-color: #8f93964f;
+    width:50%;
+    margin:auto;
+    margin-top: 15px;
+}
+section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.438);
+}
+
+section h2 {
+    color: #497199;
+    transition: color 0.3s ease;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+
+}
+
+section p {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.recurso, .historia {
+    background-color: #ffffff00;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.recurso h3, .historia h3 {
+    color: #ffffff;
+}
+.historia h4{
+color: white;
+}
+
+.recurso p, .historia p {
+    color: #ffffff;
+}
+.aspectos{
+    color: white;
+}
+footer {
+    background-color: #8f939600;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #567391;
+}
+#recursos {
+    overflow: hidden; /* Añadimos un overflow hidden para evitar que el contenido se extienda fuera de su caja */
+    position: relative;
+    z-index: 1; /* Asegura que la sección de recursos esté sobre otras capas */
+}
+#contenedor {
+    display: flex;
+    flex-direction: column;
+   
+}
